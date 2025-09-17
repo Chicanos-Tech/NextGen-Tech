@@ -81,12 +81,12 @@
                 <div class="flex items-center">
                     <h1 class="font-playfair text-2xl font-bold text-amber-900">🥖 Boulangerie Artisanale</h1>
                 </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#accueil" class="text-amber-900 hover:text-amber-700 font-medium">Accueil</a>
-                    <a href="#produits" class="text-amber-900 hover:text-amber-700 font-medium">Produits</a>
-                    <a href="#contact" class="text-amber-900 hover:text-amber-700 font-medium">Contact</a>
-                </div>
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-8">
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#accueil" class="text-amber-900 hover:text-amber-700 font-medium">Accueil</a>
+                        <a href="#produits" class="text-amber-900 hover:text-amber-700 font-medium">Produits</a>
+                        <a href="#contact" class="text-amber-900 hover:text-amber-700 font-medium">Contact</a>
+                    </div>
                     <button onclick="toggleCart()" class="relative p-2 text-amber-900 hover:text-amber-700">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m0 0h9"></path>
@@ -154,7 +154,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="bg-amber-900 text-white py-16">
+    <section id="contact" class="bg-amber-900 text-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div>
@@ -189,13 +189,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-amber-800 p-6 rounded-lg">
-                    <h4 class="font-playfair text-2xl font-bold mb-4">Nous Écrire</h4>
-                    <form class="space-y-4">
-                        <input type="text" placeholder="Votre nom" class="w-full p-3 rounded-lg text-amber-900">
-                        <input type="email" placeholder="Votre email" class="w-full p-3 rounded-lg text-amber-900">
-                        <textarea placeholder="Votre message" rows="4" class="w-full p-3 rounded-lg text-amber-900"></textarea>
-                        <button type="submit" class="w-full bg-white text-amber-900 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors">
+                <div class="bg-amber-800 p-4 rounded-lg">
+                    <h4 class="font-playfair text-xl font-bold mb-3">Nous Écrire</h4>
+                    <form class="space-y-3">
+                        <input type="text" placeholder="Votre nom" class="w-full p-2 rounded-lg text-amber-900">
+                        <input type="email" placeholder="Votre email" class="w-full p-2 rounded-lg text-amber-900">
+                        <textarea placeholder="Votre message" rows="3" class="w-full p-2 rounded-lg text-amber-900"></textarea>
+                        <button type="submit" class="w-full bg-white text-amber-900 py-2 rounded-lg font-semibold hover:bg-amber-50 transition-colors">
                             Envoyer le message
                         </button>
                     </form>
@@ -700,5 +700,5 @@
             this.reset();
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9805cd3060de2068',t:'MTc1ODA4MjcyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9805fb4847946ff0',t:'MTc1ODA4NDYxNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
